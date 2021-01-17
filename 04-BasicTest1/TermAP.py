@@ -1,0 +1,11 @@
+n = int(input())
+count = 1
+current = 1
+num = 0
+while (current <= n + count):
+    num = 3 * current + 2
+    last = num
+    if (num % 4 != 0):
+        print(num, end=" ")
+        count += 1
+    current += 1
